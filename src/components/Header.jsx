@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-
 export default function Header() {
   const [open, setOpen] = useState(false);
 
@@ -39,15 +38,15 @@ export default function Header() {
 
             {links.map((link) => (
               <li key={link.name}>
-                <a
-                  href={link.href}
+                <Link
+                  to={link.href}
                   className="relative group hover:text-orange-500 transition"
                 >
                   {link.name}
 
                   {/* underline elegante */}
                   <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-orange-500 transition-all duration-300 group-hover:w-full"></span>
-                </a>
+                </Link>
               </li>
             ))}
 
@@ -73,13 +72,13 @@ export default function Header() {
 
             {links.map((link) => (
               <li key={link.name}>
-                <a
-                  href={link.href}
+                <Link
+                  to={link.href}
                   onClick={() => setOpen(false)}
                   className="block hover:text-orange-500 transition"
                 >
                   {link.name}
-                </a>
+                </Link>
               </li>
             ))}
 

@@ -94,7 +94,7 @@ export default function RendimientoMercadoPago() {
           </div>
 
           {/* Columna derecha - Resultados (siempre visibles) */}
-          <div className="bg-[#0c1633] rounded-2xl p-8 space-y-6">
+          <div className="bg-zinc-800 rounded-2xl p-8 space-y-6">
 
             <div>
               <p className="text-gray-400 text-sm">

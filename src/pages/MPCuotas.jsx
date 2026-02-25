@@ -81,7 +81,7 @@ export default function MPCuotas() {
 
           {/* formulario */}
 
-          <div className="bg-zinc-800 p-6 rounded-xl">
+          <div className="bg-zinc-900 p-6 rounded-xl">
 
             <label className="block mb-2 text-sm">
               Monto a cobrar (ARS)
@@ -92,7 +92,7 @@ export default function MPCuotas() {
               value={monto}
               onChange={(e) => setMonto(e.target.value)}
               placeholder="Ej: 100000"
-              className="w-full p-3 rounded bg-[#0b132b]"
+              className="w-full bg-zinc-800 border border-gray-600 rounded-xl px-6 py-4 focus:outline-none focus:border-orange-500"
             />
 
             <label className="block mt-4 mb-2 text-sm">
@@ -102,7 +102,8 @@ export default function MPCuotas() {
             <select
               value={cuotas}
               onChange={(e) => setCuotas(e.target.value)}
-              className="w-full p-3 rounded bg-[#0b132b]"
+              className="w-full p-3 rounded bg-zinc-800 rounded-xl px-6 py-4"
+              
             >
               <option value="1">1 cuota</option>
               <option value="3">3 cuotas</option>
@@ -118,7 +119,7 @@ export default function MPCuotas() {
             <select
               value={tipo}
               onChange={(e) => setTipo(e.target.value)}
-              className="w-full p-3 rounded bg-[#0b132b]"
+              className="w-full p-3 rounded bg-zinc-800 rounded-xl px-6 py-4"
             >
               <option value="sin_interes">
                 Sin interés (vos pagás comisión)
