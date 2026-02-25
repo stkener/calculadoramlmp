@@ -81,7 +81,7 @@ export default function MPCuotas() {
 
           {/* formulario */}
 
-          <div className="bg-[#1c2541] p-6 rounded-xl">
+          <div className="bg-zinc-800 p-6 rounded-xl">
 
             <label className="block mb-2 text-sm">
               Monto a cobrar (ARS)
@@ -142,9 +142,9 @@ export default function MPCuotas() {
 
           {/* resultados */}
 
-          <div className="bg-[#1c2541] p-6 rounded-xl">
+          <div className="bg-zinc-800 p-6 rounded-xl">
 
-            <div className="mb-4">
+            <div className="mb-4 ">
 
               <p className="text-sm text-gray-400">
                 Comisión aplicada

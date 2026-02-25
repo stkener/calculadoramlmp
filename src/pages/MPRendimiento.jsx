@@ -39,7 +39,7 @@ export default function RendimientoMercadoPago() {
 
         <Link
           to="/mercadopago"
-          className="mb-8 text-sm text-orange-500 hover:text-orange-400 transition cursor-pointer"
+          className="text-zinc-400 hover:text-orange-500 mb-6 inline-block"
         >
           ← Volver al menú
         </Link>
@@ -118,7 +118,7 @@ export default function RendimientoMercadoPago() {
 
             <hr className="border-gray-700" />
 
-            <div>
+            <div className="bg-zinc-800">
               <p className="text-gray-400 text-sm">
                 Ganancia anual estimada
               </p>
