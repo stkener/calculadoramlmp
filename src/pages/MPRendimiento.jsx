@@ -33,7 +33,7 @@ export default function RendimientoMercadoPago() {
   
 
   return (
-    <div className="min-h-screen bg-[#070f2b] text-gray-200 px-6 py-14">
+    <div className="min-h-screen bg-zinc-900 text-gray-200 px-6 py-14">
 
       <div className="max-w-6xl mx-auto">
 

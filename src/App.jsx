@@ -49,7 +49,7 @@ function App() {
 
         <Route path="/donaciones" element={<Donaciones />} />
 
-        <Route path="/sobre" element={<SobreProyecto />} />
+        <Route path="/sobreproyecto" element={<SobreProyecto />} />
         <Route path="/contacto" element={<Contacto />} />
         <Route path="/faq" element={<FAQ />} />
 

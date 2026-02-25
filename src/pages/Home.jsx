@@ -6,7 +6,7 @@ const cards = [
   { title: "Donaciones", icon: "❤️", path: "/donaciones", color: "hover:bg-pink-600/20" },
   { title: "Guías", icon: "📘", path: "/guias", color: "hover:bg-indigo-600/20" },
   { title: "Noticias", icon: "📰", path: "/noticias", color: "hover:bg-emerald-600/20" },
-  { title: "Sobre el proyecto", icon: "🚀", path: "/proyecto", color: "hover:bg-orange-600/20" },
+  { title: "Sobre el proyecto", icon: "🚀", path: "/sobreproyecto", color: "hover:bg-orange-600/20" },
   { title: "Contacto", icon: "✉️", path: "/contacto", color: "hover:bg-cyan-600/20" },
   { title: "Preguntas frecuentes", icon: "❓", path: "/faq", color: "hover:bg-purple-600/20" }
 ];
