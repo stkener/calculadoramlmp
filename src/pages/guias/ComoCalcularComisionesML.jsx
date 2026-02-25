@@ -21,7 +21,7 @@ export default function ComoCalcularComisionesML() {
 
       {/* imagen */}
       <img
-        src="/public/image/ml-calcular-comisiones.jpg"
+        src="/public/image/comisionesML.jpg"
         alt="Calcular comisiones de Mercado Libre antes de vender"
         className="rounded-xl mb-6 w-full"
       />

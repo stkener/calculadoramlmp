@@ -7,8 +7,8 @@ export default function Header() {
 
   const links = [
     { name: "Inicio", href: "/" },
-    { name: "Mercado Libre", href: "/MercadoLibre" },
-    { name: "Mercado Pago", href: "/MercadoPago" },
+    { name: "Mercado Libre", href: "/mercadolibre" },
+    { name: "Mercado Pago", href: "/mercadopago" },
     { name: "Guías y Recursos", href: "/guias" },
     { name: "Noticias", href: "/noticias" },
     { name: "Donaciones", href: "/donaciones" },
