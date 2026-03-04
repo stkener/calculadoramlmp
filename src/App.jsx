@@ -32,6 +32,7 @@ import CuantoCobraMercadoLibre from "./pages/guias/CuantoCobraML";
 import CuantoCobraMercadoPago from "./pages/guias/CuantoCobraMP";
 import CuantoRindeMercadoPago from "./pages/guias/CuantoRindeMP";
 import ComoCalcularComisionesML from "./pages/guias/ComoCalcularComisionesML";
+import CuantasVentasNecesito from "./pages/guias/CuantasVentasNecesito";
 
 
 function App() {
@@ -72,7 +73,7 @@ function App() {
         <Route path="/guias/cuantocobramp" element={<CuantoCobraMercadoPago />} />
         <Route path="/guias/cuantorindemp" element={<CuantoRindeMercadoPago />} />
         <Route path="/guias/comocalcularcomisionesml" element={<ComoCalcularComisionesML />} />
-        
+        <Route path="/guias/cuantasventasnecesito" element={<CuantasVentasNecesito />} />
 
 
       </Routes>

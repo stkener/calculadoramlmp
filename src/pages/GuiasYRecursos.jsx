@@ -251,6 +251,10 @@ export default function GuiasArticulos() {
     {
       titulo: "Cómo calcular las comisiones de Mercado Libre paso a paso (2026)",
       slug: "/guias/comocalcularcomisionesml"
+    },
+    {
+      titulo: "Cuántas ventas necesito para ganar X dinero en Mercado Libre (2026)",
+      slug: "/guias/cuantasventasnecesito"
     }
   ];
 
