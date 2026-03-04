@@ -22,7 +22,7 @@ export default function CuantoCobraMercadoPago() {
 
       {/* imagen */}
       <img
-        src="/public/image/MP1.jpg"
+        src="/image/MP1.jpg"
         alt="Cobrar dinero con Mercado Pago en Argentina"
         className="rounded-xl mb-6 w-full"
       />

@@ -33,7 +33,7 @@ export default function CuantasVentasNecesito() {
 
       {/* imagen */}
       <img
-        src="/public/image/calcularGanancia.jpg"
+        src="/image/calcularGanancia.jpg"
         alt="Vendedor usando Mercado Libre desde computadora"
         className="rounded-xl mb-6 w-full"
       />

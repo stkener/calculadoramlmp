@@ -22,7 +22,7 @@ export default function CuantoCobraMercadoLibre() {
 
       {/* imagen */}
       <img
-        src="/public/image/ml1.jpg"
+        src="/image/ml1.jpg"
         alt="Vendedor usando Mercado Libre desde computadora"
         className="rounded-xl mb-6 w-full"
       />
