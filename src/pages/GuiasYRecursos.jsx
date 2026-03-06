@@ -255,6 +255,10 @@ export default function GuiasArticulos() {
     {
       titulo: "Cuántas ventas necesito para ganar X dinero en Mercado Libre (2026)",
       slug: "/guias/cuantasventasnecesito"
+    },
+    {
+      titulo: "Envios Mercado Libre (2026)",
+      slug: "/guias/enviosmercadolibre"
     }
   ];
 
