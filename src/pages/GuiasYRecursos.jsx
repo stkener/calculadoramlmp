@@ -259,6 +259,10 @@ export default function GuiasArticulos() {
     {
       titulo: "Envios Mercado Libre (2026)",
       slug: "/guias/enviosmercadolibre"
+    },
+    {
+    titulo: "Comisiones de Mercado Pago en Argentina (2026)",
+      slug: "/guias/comisionesmercadopago"
     }
   ];
 
