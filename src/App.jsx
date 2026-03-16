@@ -35,7 +35,7 @@ import ComoCalcularComisionesML from "./pages/guias/ComoCalcularComisionesML";
 import CuantasVentasNecesito from "./pages/guias/CuantasVentasNecesito";
 import EnviosMercadoLibre from "./pages/guias/EnviosMercadoLibre";
 import ComisionesMercadoPago from "./pages/guias/ComisionesMPArgentina";
-
+import CalcularGananciaMercadoLibre from "./pages/guias/GananciaEnML";
 
 function App() {
   return (
@@ -78,6 +78,7 @@ function App() {
         <Route path="/guias/cuantasventasnecesito" element={<CuantasVentasNecesito />} />
         <Route path="/guias/enviosmercadolibre" element={<EnviosMercadoLibre />} />
         <Route path="/guias/comisionesmercadopago" element={<ComisionesMercadoPago />} />
+        <Route path="/guias/gananciamercadolibre" element={<CalcularGananciaMercadoLibre />} />
 
 
       </Routes>

@@ -263,6 +263,10 @@ export default function GuiasArticulos() {
     {
     titulo: "Comisiones de Mercado Pago en Argentina (2026)",
       slug: "/guias/comisionesmercadopago"
+    },
+    {
+    titulo: "Calcular ganancias Mercado Libre Argentina (2026)",
+    slug: "/guias/gananciamercadolibre"
     }
   ];
 
