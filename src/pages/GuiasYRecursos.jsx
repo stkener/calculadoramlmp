@@ -267,6 +267,10 @@ export default function GuiasArticulos() {
     {
     titulo: "Calcular ganancias Mercado Libre Argentina (2026)",
     slug: "/guias/gananciamercadolibre"
+    },
+    {
+    titulo: "Cuánto se gana vendiendo en Mercado Libre (2026)",
+    slug: "/guias/cuantosegana"
     }
   ];
 
