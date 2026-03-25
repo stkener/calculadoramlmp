@@ -43,7 +43,7 @@ export default function GananciasMercadoLibre() {
       {/* BOTON */}
       <div className="my-6">
         <Link
-          to="/calculadora"
+          to="/mercadolibre"
           className="inline-block bg-orange-600 hover:bg-orange-700 text-white font-semibold px-6 py-3 rounded-xl"
         >
           Calcular ganancias de Mercado Libre
@@ -172,7 +172,7 @@ export default function GananciasMercadoLibre() {
       {/* CTA FINAL */}
       <div className="my-6">
         <Link
-          to="/calculadora"
+          to="/mercadolibre"
           className="inline-block bg-orange-600 hover:bg-orange-700 text-white font-semibold px-6 py-3 rounded-xl"
         >
           Calcular ganancias de Mercado Libre

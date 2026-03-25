@@ -271,7 +271,12 @@ export default function GuiasArticulos() {
     {
     titulo: "Cuánto se gana vendiendo en Mercado Libre (2026)",
     slug: "/guias/cuantosegana"
+    },
+    {
+    titulo: "Tabla actualizada de comisiones de Mercado Libre (2026)",
+    slug: "/guias/tablacomisionesML"
     }
+
   ];
 
   return (
