@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import PromoLibro from "../../components/PromoLibro";
 
 export default function CuantoCobraMercadoLibre() {
 
@@ -207,24 +208,6 @@ export default function CuantoCobraMercadoLibre() {
 
       </div>
 
-
-      {/* herramienta margen */}
-      <div className="bg-zinc-900 border border-orange-500 rounded-xl p-6 mb-10">
-
-        <h3 className="font-semibold mb-2">
-          Calculá tu margen real
-        </h3>
-
-        <Link
-          to="/mercadolibre/margen"
-          className="inline-block bg-orange-600 hover:bg-orange-700 px-5 py-3 rounded-xl font-semibold transition"
-        >
-          Calcular margen de ganancia
-        </Link>
-
-      </div>
-
-
       {/* ads */}
       {/*<div className="bg-zinc-800 border border-zinc-700 rounded-xl p-6 text-center my-10">
         <span className="text-zinc-500 text-sm">
@@ -252,7 +235,24 @@ export default function CuantoCobraMercadoLibre() {
         Podés usar nuestras calculadoras gratuitas para conocer exactamente cuánto vas a ganar
         antes de vender.
       </p>
+      <br></br>
+      {/* herramienta margen */}
+      <div className="bg-zinc-900 border border-orange-500 rounded-xl p-6 mb-10">
 
+        <h3 className="font-semibold mb-2">
+          Calculá tu margen real
+        </h3>
+
+        <Link
+          to="/mercadolibre/margen"
+          className="inline-block bg-orange-600 hover:bg-orange-700 px-5 py-3 rounded-xl font-semibold transition"
+        >
+          Calcular margen de ganancia
+        </Link>
+
+      </div>
+
+      <PromoLibro />
 
       {/* legal */}
       <p className="text-xs text-zinc-500 mt-10">

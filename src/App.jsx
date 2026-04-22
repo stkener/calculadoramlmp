@@ -38,6 +38,7 @@ import ComisionesMercadoPago from "./pages/guias/ComisionesMPArgentina";
 import CalcularGananciaMercadoLibre from "./pages/guias/GananciaEnML";
 import CuantoSeGanaMercadoLibre from "./pages/guias/CuantoSeGanaML";
 import TablaComisionesMercadoLibre from "./pages/guias/TablaComisionesML";
+import CuotasMercadoPago from "./pages/guias/CuotasMP";
 
 function App() {
   return (
@@ -83,6 +84,7 @@ function App() {
         <Route path="/guias/gananciamercadolibre" element={<CalcularGananciaMercadoLibre />} />
         <Route path="/guias/cuantosegana" element={<CuantoSeGanaMercadoLibre />} />
         <Route path="/guias/tablacomisionesML" element={<TablaComisionesMercadoLibre />} />
+        <Route path="/guias/cuotasMP" element={<CuotasMercadoPago />} />
 
 
       </Routes>

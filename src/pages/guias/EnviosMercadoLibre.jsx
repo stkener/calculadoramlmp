@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import PromoLibro from "../../components/PromoLibro";
 
 export default function EnviosMercadoLibre() {
   return (
@@ -293,6 +294,8 @@ export default function EnviosMercadoLibre() {
           Calcular costo de envio
         </Link>
       </div>
+
+      <PromoLibro />
 
     </article>
   );

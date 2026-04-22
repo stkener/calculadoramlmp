@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import PromoLibro from "../../components/PromoLibro";
 
 export default function CuantoCobraMercadoPago() {
 
@@ -189,6 +190,8 @@ export default function CuantoCobraMercadoPago() {
       <p className="text-zinc-300">
         Antes de cobrar, es recomendable calcular la comisión exacta para conocer tu ganancia real.
       </p>
+
+      <PromoLibro />
 
 
       {/* legal */}

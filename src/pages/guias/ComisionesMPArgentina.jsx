@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import PromoLibro from "../../components/PromoLibro";
 
 export default function ComisionesMercadoPago() {
   return (
@@ -300,7 +301,7 @@ export default function ComisionesMercadoPago() {
           Calcular comisiones de Mercado Pago
         </Link>
       </div>
-
+      <PromoLibro />
     </article>
   );
 }

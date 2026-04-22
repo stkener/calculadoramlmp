@@ -275,6 +275,10 @@ export default function GuiasArticulos() {
     {
     titulo: "Tabla actualizada de comisiones de Mercado Libre (2026)",
     slug: "/guias/tablacomisionesML"
+    },
+    {
+    titulo: "Cuánto te descuenta Mercado Pago por cobrar en cuotas (2026)",
+    slug: "/guias/cuotasMP"
     }
 
   ];

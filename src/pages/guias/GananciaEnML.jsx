@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import PromoLibro from "../../components/PromoLibro";
 
 export default function CalcularComisionesMercadoLibre() {
   return (
@@ -196,6 +197,8 @@ export default function CalcularComisionesMercadoLibre() {
         cambiar con el tiempo, por lo que siempre es recomendable verificar los
         valores actualizados antes de publicar un producto.
       </p>
+
+      <PromoLibro />
     </article>
   );
 }

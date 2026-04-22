@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import PromoLibro from "../../components/PromoLibro";
 
 export default function ComoCalcularComisionesML() {
   return (
@@ -285,6 +286,8 @@ export default function ComoCalcularComisionesML() {
       <p className="mb-4">
         Este cálculo te permite saber exactamente cuánto dinero vas a recibir y evitar pérdidas.
       </p>
+
+      <PromoLibro />
 
     </article>
   );

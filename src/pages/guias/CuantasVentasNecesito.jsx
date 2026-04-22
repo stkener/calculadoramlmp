@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
+import PromoLibro from "../../components/PromoLibro";
 
 export default function CuantasVentasNecesito() {
   useEffect(() => {
@@ -16,7 +17,8 @@ export default function CuantasVentasNecesito() {
   }, []);
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-10 text-gray-200">
+    
+    <article className="max-w-4xl mx-auto px-4 py-10 text-gray-200">
 
       {/* volver */}
       <Link
@@ -50,7 +52,7 @@ export default function CuantasVentasNecesito() {
       </p>
 
       {/* CTA principal */}
-      <div className="bg-orange-900/40 border border-orange-500 p-6 rounded-2xl mb-10">
+      <div className="bg-zinc-900/40 border border-orange-500 p-6 rounded-2xl mb-10">
         <h2 className="text-xl font-semibold mb-3">
           🎯 Calculá tu objetivo automáticamente
         </h2>
@@ -196,7 +198,7 @@ export default function CuantasVentasNecesito() {
       </div>
 
       {/* CTA final */}
-      <div className="bg-orange-900/40 border border-orange-500 p-6 rounded-2xl">
+      <div className="bg-zinc-900/40 border border-orange-500 p-6 rounded-2xl">
         <h2 className="text-xl font-semibold mb-3">
           🚀 Planificá tu meta de ingresos hoy
         </h2>
@@ -207,7 +209,7 @@ export default function CuantasVentasNecesito() {
           Calcular mis ventas necesarias
         </Link>
       </div>
-
-    </div>
+      <PromoLibro />
+    </article>
   );
 }

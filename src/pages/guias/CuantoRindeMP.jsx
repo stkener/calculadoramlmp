@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import PromoLibro from "../../components/PromoLibro";
 
 export default function CuantoRindeMercadoPago() {
   return (
@@ -275,6 +276,8 @@ export default function CuantoRindeMercadoPago() {
       <p className="mb-4">
         Aunque no reemplaza inversiones más avanzadas, es una excelente opción para dinero que necesitás usar diariamente.
       </p>
+
+      <PromoLibro />
 
     </article>
   );
