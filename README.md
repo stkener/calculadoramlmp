@@ -215,19 +215,6 @@ npm run build
 
 ---
 
-# 💡 Future Improvements
-
-- Additional Mercado Libre calculators
-- More educational articles
-- Advanced financial simulators
-- User accounts
-- Favorites system
-- Calculator history
-- Progressive Web App (PWA)
-- Dark/Light theme
-
----
-
 # 👨‍💻 Author
 
 **Sebastián Kener**
