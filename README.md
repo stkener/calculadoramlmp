@@ -1,16 +1,136 @@
-# React + Vite
+# Calculadora Mercado Libre y Mercado Pago
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web desarrollada para vendedores de Mercado Libre y usuarios de Mercado Pago que reúne múltiples herramientas de cálculo, simuladores y contenido educativo en una única plataforma.
 
-Currently, two official plugins are available:
+El proyecto fue pensado para ayudar a estimar costos, calcular rentabilidad y comprender el funcionamiento de ambas plataformas mediante herramientas prácticas y artículos informativos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Demo
 
-## React Compiler
+https://calculadora-mercadolibre.netlify.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Capturas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Página principal
+
+![Inicio](docs/Home.png)
+
+### Calculadoras
+
+![Calculadora](docs/Calculator.png)
+
+### Resultados
+
+![Resultados](docs/Results.png)
+
+### Noticias
+
+![Noticias](docs/News.png)
+
+### Guías y recursos
+
+![Artículos](docs/Articles.png)
+
+### Preguntas Frecuentes
+
+![FAQ](docs/FAQ.png)
+
+### Libro digital
+
+![Ebook](docs/Book.png)
+
+### Versión móvil
+
+![Responsive](docs/Mobile.png)
+
+---
+
+# Funcionalidades
+
+- Calculadora de comisiones de Mercado Libre
+- Calculadora de rendimientos de Mercado Pago
+- Simulador de costos por cuotas
+- Simulador de envíos
+- Planificador de precios
+- Calculadora de ganancia final
+- Simulador completo de venta
+- Centro de artículos y guías
+- Feed automático de noticias
+- Preguntas Frecuentes (FAQ)
+- Página de donaciones
+- Integración con Cafecito
+- Integración con Mercado Pago
+- Descarga de ebook gratuito
+- Diseño responsive
+- Menú hamburguesa para dispositivos móviles
+
+---
+
+# SEO
+
+El proyecto fue optimizado para mejorar su posicionamiento en buscadores.
+
+Incluye:
+
+- Meta etiquetas
+- Open Graph
+- Sitemap
+- Robots.txt
+- URLs amigables
+- Google Search Console
+- Google Analytics
+
+---
+
+# Tecnologías utilizadas
+
+- React
+- Vite
+- Tailwind CSS
+- JavaScript
+- React Router
+- Google Analytics
+- Netlify
+
+---
+
+# Instalación
+
+```bash
+git clone https://github.com/stkener/calculadoramlmp.git
+
+cd calculadoramlmp
+
+npm install
+
+npm run dev
+```
+
+---
+
+# Objetivos del proyecto
+
+Este proyecto fue desarrollado como una herramienta gratuita para vendedores y emprendedores.
+
+Además del desarrollo técnico, el sitio fue pensado como una plataforma de contenido con estrategias de SEO y monetización mediante:
+
+- Donaciones
+- Ebook propio
+- Contenido educativo
+- Noticias
+- Recursos para vendedores
+
+---
+
+# Autor
+
+**Sebastián Kener**
+
+- GitHub: https://github.com/stkener
+
+---
+
+# Licencia
+
+Este proyecto se distribuye bajo licencia MIT.
